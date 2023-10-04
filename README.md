@@ -1,2 +1,2 @@
 # Jogo da velha criado na Integração Presencial Suzano e Rocketseat.
-Utilizando HTMHL, CSS e JavaScript.
+Utilizando HTML, CSS e JavaScript.
