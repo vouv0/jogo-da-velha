@@ -1,0 +1,47 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 2px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.board div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.board div:hover {
+    background-color: #eee;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#background_tabuleiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #c5c5c5;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+html { 
+    background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
